@@ -18,7 +18,7 @@ namespace VacationCRUD
         /// <returns>Результат</returns>
         private bool IsDateInPeriod(DateOnly date, DateOnly from, DateOnly to)
         {
-            return (date.DayNumber > from.DayNumber && date.DayNumber < to.DayNumber);
+            return (date.DayNumber >= from.DayNumber && date.DayNumber =< to.DayNumber);
         }
 
         /// <summary>
