@@ -1,0 +1,90 @@
+﻿html,
+body {
+    min-width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#vacrud-app-content {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 0 5px;
+}
+#vacrud-app-content .ms-Stack {
+    width: 100%;
+}
+#vacrud-app-header {
+    margin: 0 auto 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+}
+#vacrud-app-header .ms-CommandBar[role=menubar] {
+    box-shadow: 0px 0px 10px #2f2f2f;
+    padding: 0 16px 0 0;
+}
+#vacrud-app-header .ms-CommandBar[role=menubar] .ms-Button--commandBar > span > i.ms-Button-icon {
+    color: black;
+}
+.vacrud-loader {
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 44px;
+    bottom: 60px;
+    z-index: 9999;
+}
+.vacrud-loader.full {
+    top: 0;
+    bottom: 0;
+}
+.vacrud-loader .ms-Spinner-circle {
+    border-top-color: rgb(44, 150, 44);
+}
+.separator-title {
+    margin: 5px 0;
+}
+#app-notificationbar {
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+#app-notificationbar .app-notification {
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+}
+#app-notificationbar .app-notificationbar:last-child {
+    margin-bottom: 0;
+}
+.connection-input-login,
+.connection-input-password,
+.connection-input-connect {
+    margin: 5px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.empty {
+    display: block;
+    margin: 10px auto;
+}
+.vac-list-controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.vacation-card {
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 15px;
+    padding: 5px;
+}
